@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="6dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="6dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/list_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_for_list_title"
+                android:backgroundTint="#ac04e656"
+                android:paddingLeft="4dp"
+                android:text="Study cursors"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FFFF" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/list_details"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:background="@drawable/corner_for_list_description"
+            android:backgroundTint="#DEDEDE"
+            android:fontFamily="casual"
+            android:paddingLeft="4dp"
+            android:text="3"
+            android:textAppearance="@android:style/TextAppearance"
+            android:textSize="18sp"
+            android:typeface="sans" />
+    </LinearLayout>
+
+</LinearLayout>
